@@ -1,0 +1,15 @@
+[submodule ".oh-my-zsh/custom/plugins/fast-syntax-highlighting"]
+	path = .oh-my-zsh/custom/plugins/fast-syntax-highlighting
+	url = https://github.com/zdharma/fast-syntax-highlighting
+[submodule ".oh-my-zsh/custom/plugins/zsh-256color"]
+	path = .oh-my-zsh/custom/plugins/zsh-256color
+	url = https://github.com/chrissicool/zsh-256color.git
+[submodule ".oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+	path = .oh-my-zsh/custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "zsh_theme_theta-async"]
+	path = zsh_theme_theta-async
+	url = https://github.com/jesec/zsh_theme_theta-async
+[submodule "zsh-async"]
+	path = zsh-async
+	url = https://github.com/mafredri/zsh-async
