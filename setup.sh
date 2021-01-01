@@ -2,13 +2,13 @@
 
 git submodule update --init --recursive
 
-ln -s /home/jc/.dotfiles/.oh-my-zsh/custom/plugins/zsh-autosuggestions /home/jc/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-ln -s /home/jc/.dotfiles/.oh-my-zsh/custom/plugins/fast-syntax-highlighting /home/jc/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
-ln -s /home/jc/.dotfiles/.oh-my-zsh/custom/plugins/zsh-256color /home/jc/.oh-my-zsh/custom/plugins/zsh-256color
+ln -s $HOME/.dotfiles/.oh-my-zsh/custom/plugins/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+ln -s $HOME/.dotfiles/.oh-my-zsh/custom/plugins/fast-syntax-highlighting $HOME/.oh-my-zsh/custom/plugins/fast-syntax-highlighting
+ln -s $HOME/.dotfiles/.oh-my-zsh/custom/plugins/zsh-256color $HOME/.oh-my-zsh/custom/plugins/zsh-256color
 
-mkdir /home/jc/.oh-my-zsh/functions
-ln -s /home/jc/.dotfiles/zsh-async/async.zsh /home/jc/.oh-my-zsh/functions/async
-ln -s /home/jc/.dotfiles/zsh_theme_theta-async/theta-async.zsh /home/jc/.oh-my-zsh/functions/prompt_theta_setup
+mkdir $HOME/.oh-my-zsh/functions
+ln -s $HOME/.dotfiles/zsh-async/async.zsh $HOME/.oh-my-zsh/functions/async
+ln -s $HOME/.dotfiles/zsh_theme_theta-async/theta-async.zsh $HOME/.oh-my-zsh/functions/prompt_theta_setup
 
-rm /home/jc/.zshrc
-ln -sf /home/jc/.dotfiles/.zshrc /home/jc/.zshrc
+rm $HOME/.zshrc
+ln -sf $HOME/.dotfiles/.zshrc $HOME/.zshrc
